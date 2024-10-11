@@ -44,11 +44,17 @@ export default function Home() {
             <ResearchLi
               image={FDTRImage}
               title="Nanoscale and microscale thermal transport"
+              link="/research#fdtr"
             />
-            <ResearchLi image={FlexibleImage} title="Flexible electronics" />
+            <ResearchLi
+              image={FlexibleImage}
+              title="Flexible electronics"
+              link="/research#flexible"
+            />
             <ResearchLi
               image={DeviceImage}
               title="Electronic and thermal devices for tissue engineering"
+              link="/research#device"
             />
           </div>
           <Link href={"/research"} className="text-xl self-center">
@@ -92,16 +98,20 @@ const NewsLi = ({ title, date }: { title: string; date: string }) => {
 const ResearchLi = ({
   title,
   image,
+  link,
 }: {
   title: string;
   image: StaticImageData;
+  link: string;
 }) => {
   return (
     <div className="flex flex-row items-center gap-6">
       <Image src={image} alt="" className="w-1/3" />
       <div className="flex flex-col">
         <div className="text-2xl font-bold">{title}</div>
-        <div className="">show details</div>
+        <Link className="hover:text-blue-500" href={link}>
+          show details
+        </Link>
       </div>
     </div>
   );

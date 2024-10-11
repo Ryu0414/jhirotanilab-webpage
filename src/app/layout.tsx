@@ -38,7 +38,7 @@ export default function RootLayout({
         <div className="fixed w-full flex justify-center z-10">
           <div className="flex w-full flex-row px-20 py-4 bg-gray-900 bg-opacity-90 text-white items-center justify-between justify-self-senter">
             <Link href={"/"}>
-              <Image src={LogoImage} alt="logo" className="w-48" />
+              <Image src={LogoImage} alt="logo" className="w-64" />
             </Link>
             <div>
               <div className="flex flex-row gap-8 pr-20 text-lg">
@@ -51,8 +51,8 @@ export default function RootLayout({
                 <Link href={"/publications"} className="hover:text-blue-300">
                   Publications
                 </Link>
-                <Link href={"/people"} className="hover:text-blue-300">
-                  People
+                <Link href={"/member"} className="hover:text-blue-300">
+                  Member
                 </Link>
                 <Link href={"/contact"} className="hover:text-blue-300">
                   Contact
@@ -72,12 +72,15 @@ export default function RootLayout({
               <Image src={LogoImage} alt="logo" className="w-2/3" />
               <div className="text-xs">© J.HIROTANI GROUP, 2024</div>
             </div>
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 text-sm">
               <div className="text-xl">
                 Contact Information for Jun Hirotani
               </div>
-              <div>E-mail:</div>
-              <div>Access:</div>
+              <div>E-mail : hirotani.jun.7v@kyoto-u.ac.jp</div>
+              <div>
+                Access : Kyoto University, Katsura Campus, Bldg. No. C3, Room
+                S14, Saikyo-Ku, Kyoto, JAPAN
+              </div>
             </div>
           </div>
           {/* ここまでフッター */}
