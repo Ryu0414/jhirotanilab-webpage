@@ -14,7 +14,7 @@ type NewsType = {
 
 export default function Publications() {
   const [selectingPage, setSelcetingPage] = useState(1);
-  const [totalNews, SetTotalNews] = useState(NEWS_LIST.length);
+  const totalNews = NEWS_LIST.length;
   const [showingNewsList, setShowingNewsList] = useState<NewsType[]>([]);
   const [pageNumberList, setPageNumberList] = useState<number[]>([]);
   const numberPerPage = 10;
