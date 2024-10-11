@@ -56,7 +56,6 @@ export default function Publications() {
                 key={news.id}
                 title={news.title}
                 link={news.link}
-                id={news.id}
                 imgPath="/_images/device.jpeg"
                 publication={news.publication}
                 authors={news.authors}
@@ -132,14 +131,12 @@ export default function Publications() {
 const PubLi = ({
   title,
   authors,
-  id,
   link,
   publication,
   imgPath,
 }: {
   title: string;
   authors: string;
-  id: number;
   link: string;
   publication: string;
   imgPath: string;
