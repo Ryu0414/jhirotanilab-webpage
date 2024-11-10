@@ -63,7 +63,8 @@ export default function Home() {
         </div>
         <div className="w-2/3 flex flex-col gap-4">
           <div className="text-4xl font-bold">NEWS</div>
-          <div className="flex flex-col gap-4 pl-4">
+          <span className="text-2xl">- Coming soon! -</span>
+          {/* <div className="flex flex-col gap-4 pl-4">
             <NewsLi
               title="Akura Poyon received SUGOI Award."
               date="2024/10/3"
@@ -76,7 +77,7 @@ export default function Home() {
               title="Akura Poyon received SUGOI Award."
               date="2024/10/1"
             />
-          </div>
+          </div> */}
           <Link href={"/news"} className="text-xl self-center">
             <button className="btn btn-primary text-lg">Show More</button>
           </Link>

@@ -47,7 +47,8 @@ export default function News() {
           {/* <NewsLi title="Akura Poyon received SUGOI Award." date="2024/10/3" />
           <NewsLi title="Akura Poyon received SUGOI Award." date="2024/10/2" />
           <NewsLi title="Akura Poyon received SUGOI Award." date="2024/10/1" /> */}
-          {showingNewsList.map((news) => {
+          <span className="text-2xl text-center">- Coming soon! -</span>
+          {/* {showingNewsList.map((news) => {
             return (
               <NewsLi
                 key={news.id}
@@ -57,9 +58,9 @@ export default function News() {
                 imgPath={news.imgPath}
               />
             );
-          })}
+          })} */}
         </div>
-        <div className="flex flex-row items-center justify-center gap-10 pt-2 pb-5">
+        {/* <div className="flex flex-row items-center justify-center gap-10 pt-2 pb-5">
           <div
             className={`${
               selectingPage === 1 || totalNews / numberPerPage <= 5
@@ -118,7 +119,7 @@ export default function News() {
               {">"}
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
