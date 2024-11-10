@@ -125,36 +125,36 @@ export default function News() {
   );
 }
 
-const NewsLi = ({
-  title,
-  date,
-  id,
-  imgPath,
-}: {
-  title: string;
-  date: string;
-  id: number;
-  imgPath: string;
-}) => {
-  return (
-    <div className="flex flex-row gap-10">
-      <Image
-        src={imgPath}
-        alt={title}
-        width={100}
-        height={100}
-        className="w-1/4"
-      />
-      <div className="flex flex-col gap-2 p-2 text-xl">
-        <div>{date}</div>
-        <div>
-          {title}
-          {id}
-        </div>
-      </div>
-    </div>
-  );
-};
+// const NewsLi = ({
+//   title,
+//   date,
+//   id,
+//   imgPath,
+// }: {
+//   title: string;
+//   date: string;
+//   id: number;
+//   imgPath: string;
+// }) => {
+//   return (
+//     <div className="flex flex-row gap-10">
+//       <Image
+//         src={imgPath}
+//         alt={title}
+//         width={100}
+//         height={100}
+//         className="w-1/4"
+//       />
+//       <div className="flex flex-col gap-2 p-2 text-xl">
+//         <div>{date}</div>
+//         <div>
+//           {title}
+//           {id}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 const NEWS_LIST: NewsType[] = [
   {
