@@ -87,14 +87,14 @@ export default function Home() {
   );
 }
 
-const NewsLi = ({ title, date }: { title: string; date: string }) => {
-  return (
-    <div className="flex flex-col gap-2 p-2 text-xl">
-      <div>{date}</div>
-      <div>{title}</div>
-    </div>
-  );
-};
+// const NewsLi = ({ title, date }: { title: string; date: string }) => {
+//   return (
+//     <div className="flex flex-col gap-2 p-2 text-xl">
+//       <div>{date}</div>
+//       <div>{title}</div>
+//     </div>
+//   );
+// };
 
 const ResearchLi = ({
   title,
