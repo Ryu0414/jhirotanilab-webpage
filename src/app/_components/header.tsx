@@ -2,22 +2,18 @@
 import Link from "next/link";
 import LogoImage from "../_images/Unknown.png";
 import Image from "next/image";
-import React, { SVGProps, useState } from "react";
+import React, { useState } from "react";
 
 import {
   clearAllBodyScrollLocks,
   disableBodyScroll,
-  enableBodyScroll,
 } from "body-scroll-lock-upgrade";
 
 import {
-  ChevronRightIcon,
-  ChevronDownIcon,
   Bars3Icon,
   XMarkIcon,
   HomeIcon,
   BookOpenIcon,
-  UserIcon,
   NewspaperIcon,
   CubeIcon,
   EnvelopeIcon,
