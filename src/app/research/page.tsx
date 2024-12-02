@@ -6,11 +6,11 @@ import DeviceImage from "../_images/device.jpeg";
 export default function Research() {
   return (
     <div className="pt-20 flex flex-col items-center">
-      <div className="w-2/3 flex flex-col gap-10">
-        <div className="text-4xl font-bold self-center pt-20">
+      <div className="w-5/6 md:w-2/3 flex flex-col md:gap-4 lg:gap-10">
+        <div className="text-4xl font-bold self-center pt-10 md:pt-20">
           Research Topics
         </div>
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-8 md:gap-10 lg:gap-16 mt-4 md:mt-0">
           <div id="fdtr">
             <ResearchLi
               image={FDTRImage}
@@ -62,12 +62,21 @@ const ResearchLi = ({
   details: string;
 }) => {
   return (
-    <div className="flex flex-row items-center gap-6 mt-20">
-      <Image src={image} alt="" className="w-1/3" />
-      <div className="flex flex-col">
-        <div className="text-2xl font-bold">{title}</div>
-        <div className="">{details}</div>
+    <>
+      <div className="hidden lg:flex flex-col gap-6 mt-20">
+        <div className="text-3xl font-bold">{title}</div>
+        <div className="flex flex-row gap-8 items-center">
+          <Image src={image} alt="" className="w-1/3" />
+          <div className="text-justify">{details}</div>
+        </div>
       </div>
-    </div>
+      <div className="flex lg:hidden flex-col items-center gap-6 mt-8">
+        <div className="text-2xl lg:text-3xl font-bold text-center">
+          {title}
+        </div>
+        <Image src={image} alt="" className="w-full md:w-4/5" />
+        <div className="text-justify lg:text-lg">{details}</div>
+      </div>
+    </>
   );
 };
