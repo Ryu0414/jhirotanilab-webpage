@@ -87,7 +87,7 @@ export function Header({
               alt="Logo"
               width={120}
               height={10}
-              className="w-48 md:w-36"
+              className="w-48 md:w-60"
             />
           </Link>
         </div>
