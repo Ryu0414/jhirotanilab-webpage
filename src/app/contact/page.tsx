@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <div className="pt-20 flex flex-col items-center">
-      <div className="text-4xl font-bold self-center pt-20">
+      <div className="text-3xl md:text-4xl font-bold self-center pt-10 lg:pt-20">
         Contact & Access Info.
       </div>
-      <div className="w-2/3 flex flex-row gap-10 mt-20 items-center">
-        <div className="w-1/2 flex flex-col items-center gap-10">
+      <div className="w-5/6 lg:w-2/3 flex flex-col lg:flex-row gap-10 mt-10 lg:mt-20 items-center">
+        <div className="w-full lg:w-1/2 flex flex-col items-center gap-10">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.9364981696035!2d135.67576527713268!3d34.98325530399305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001072b7d143a45%3A0x7084e1068fb44a0!2z5Lqs6YO95aSn5a2mIOahguOCreODo-ODs-ODkeOCuSBDM-ajnw!5e0!3m2!1sja!2sjp!4v1728629761867!5m2!1sja!2sjp"
             height="450"
@@ -22,7 +22,8 @@ export default function Contact() {
           </Link>
         </div>
         <div className="flex flex-col gap-10">
-          <div className="flex flex-col text-bold gap-2">
+          <div className="flex flex-col font-bold gap-2">
+            <p>【English】</p>
             <p>〒 615-8540</p>
             <p>
               Kyoto University, Katsura Campus, Bldg. No. C3, Room S14,
@@ -37,7 +38,8 @@ export default function Contact() {
             <p>E-mail: hirotani.jun.7v@kyoto-u.ac.jp</p>
           </div>
 
-          <div className="flex flex-col text-bold gap-2">
+          <div className="flex flex-col font-bold gap-2">
+            <p>【Japanese】</p>
             <p>〒 615-8540</p>
             <p>京都市西京区京都大学桂C3棟c2S14室</p>
             <p>京都大学工学研究科マイクロエンジニアリング専攻</p>
