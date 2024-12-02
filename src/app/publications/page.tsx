@@ -44,12 +44,11 @@ export default function Publications() {
 
   return (
     <div className="pt-20 flex flex-col items-center">
-      <div className="text-4xl font-bold self-center pt-20">Publications</div>
-      <div className="w-2/3 flex flex-col gap-4 mt-20">
-        <div className="flex flex-col gap-20 pl-4">
-          {/* <NewsLi title="Akura Poyon received SUGOI Award." date="2024/10/3" />
-          <NewsLi title="Akura Poyon received SUGOI Award." date="2024/10/2" />
-          <NewsLi title="Akura Poyon received SUGOI Award." date="2024/10/1" /> */}
+      <div className="text-4xl font-bold self-center pt-8 lg:pt-20">
+        Publications
+      </div>
+      <div className="w-5/6 lg:w-2/3 flex flex-col gap-4 mt-8 lg:mt-20">
+        <div className="flex flex-col gap-10 lg:gap-20 pl-4">
           {showingNewsList.map((news) => {
             return (
               <PubLi
@@ -63,7 +62,7 @@ export default function Publications() {
             );
           })}
         </div>
-        <div className="flex flex-row items-center justify-center gap-10 pt-2 pb-5">
+        <div className="flex flex-row items-center justify-center gap-10 mt-10 pt-2 pb-5">
           <div
             className={`${
               selectingPage === 1 || totalNews / numberPerPage <= 5
@@ -142,22 +141,40 @@ const PubLi = ({
   imgPath: string;
 }) => {
   return (
-    <div className="flex flex-row gap-10 items-center">
-      <Image
-        src={imgPath}
-        alt={title}
-        width={100}
-        height={100}
-        className="w-1/2"
-      />
-      <div className="flex flex-col gap-2 p-2 text-lg">
-        <Link className="text-xl font-bold hover:text-blue-500" href={link}>
+    <>
+      <div className="hidden md:flex flex-row gap-10 items-center">
+        <Image
+          src={imgPath}
+          alt={title}
+          width={100}
+          height={100}
+          className="w-1/2"
+        />
+        <div className="flex flex-col gap-2 p-2 text-lg">
+          <Link className="text-xl font-bold hover:text-blue-500" href={link}>
+            {title}
+          </Link>
+          <div>{authors}</div>
+          <div>{publication}</div>
+        </div>
+      </div>
+      <div className="flex md:hidden flex-col gap-2 items-center">
+        <Link className="text-lg font-bold hover:text-blue-500" href={link}>
           {title}
         </Link>
-        <div>{authors}</div>
-        <div>{publication}</div>
+        <div className="flex flex-col text-sm">
+          <div>{authors}</div>
+          <div>{publication}</div>
+        </div>
+        <Image
+          src={imgPath}
+          alt={title}
+          width={100}
+          height={100}
+          className="w-4/5 mt-2"
+        />
       </div>
-    </div>
+    </>
   );
 };
 
@@ -171,40 +188,40 @@ const NEWS_LIST: NewsType[] = [
     publication: "AIP advances, 12, 045322-045322 (2022)",
     imgPath: "/_images/device.jpeg",
   },
-  {
-    title:
-      "Highly temperature-tolerant p-type carbon nanotube transistor doped with 1,4,5,8,9,11-hexaazatriphenylenehexacarbonitrile",
-    authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
-    id: 1,
-    link: "https://pubs.aip.org/aip/adv/article/12/4/045322/2819500/Highly-temperature-tolerant-p-type-carbon-nanotube",
-    publication: "AIP advances, 12, 045322-045322 (2022)",
-    imgPath: "/_images/device.jpeg",
-  },
-  {
-    title:
-      "Highly temperature-tolerant p-type carbon nanotube transistor doped with 1,4,5,8,9,11-hexaazatriphenylenehexacarbonitrile",
-    authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
-    id: 1,
-    link: "https://pubs.aip.org/aip/adv/article/12/4/045322/2819500/Highly-temperature-tolerant-p-type-carbon-nanotube",
-    publication: "AIP advances, 12, 045322-045322 (2022)",
-    imgPath: "/_images/device.jpeg",
-  },
-  {
-    title:
-      "Highly temperature-tolerant p-type carbon nanotube transistor doped with 1,4,5,8,9,11-hexaazatriphenylenehexacarbonitrile",
-    authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
-    id: 1,
-    link: "https://pubs.aip.org/aip/adv/article/12/4/045322/2819500/Highly-temperature-tolerant-p-type-carbon-nanotube",
-    publication: "AIP advances, 12, 045322-045322 (2022)",
-    imgPath: "/_images/device.jpeg",
-  },
-  {
-    title:
-      "Highly temperature-tolerant p-type carbon nanotube transistor doped with 1,4,5,8,9,11-hexaazatriphenylenehexacarbonitrile",
-    authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
-    id: 1,
-    link: "https://pubs.aip.org/aip/adv/article/12/4/045322/2819500/Highly-temperature-tolerant-p-type-carbon-nanotube",
-    publication: "AIP advances, 12, 045322-045322 (2022)",
-    imgPath: "/_images/device.jpeg",
-  },
+  // {
+  //   title:
+  //     "Highly temperature-tolerant p-type carbon nanotube transistor doped with 1,4,5,8,9,11-hexaazatriphenylenehexacarbonitrile",
+  //   authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
+  //   id: 2,
+  //   link: "https://pubs.aip.org/aip/adv/article/12/4/045322/2819500/Highly-temperature-tolerant-p-type-carbon-nanotube",
+  //   publication: "AIP advances, 12, 045322-045322 (2022)",
+  //   imgPath: "/_images/device.jpeg",
+  // },
+  // {
+  //   title:
+  //     "Highly temperature-tolerant p-type carbon nanotube transistor doped with 1,4,5,8,9,11-hexaazatriphenylenehexacarbonitrile",
+  //   authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
+  //   id: 3,
+  //   link: "https://pubs.aip.org/aip/adv/article/12/4/045322/2819500/Highly-temperature-tolerant-p-type-carbon-nanotube",
+  //   publication: "AIP advances, 12, 045322-045322 (2022)",
+  //   imgPath: "/_images/device.jpeg",
+  // },
+  // {
+  //   title:
+  //     "Highly temperature-tolerant p-type carbon nanotube transistor doped with 1,4,5,8,9,11-hexaazatriphenylenehexacarbonitrile",
+  //   authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
+  //   id: 4,
+  //   link: "https://pubs.aip.org/aip/adv/article/12/4/045322/2819500/Highly-temperature-tolerant-p-type-carbon-nanotube",
+  //   publication: "AIP advances, 12, 045322-045322 (2022)",
+  //   imgPath: "/_images/device.jpeg",
+  // },
+  // {
+  //   title:
+  //     "Highly temperature-tolerant p-type carbon nanotube transistor doped with 1,4,5,8,9,11-hexaazatriphenylenehexacarbonitrile",
+  //   authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
+  //   id: 5,
+  //   link: "https://pubs.aip.org/aip/adv/article/12/4/045322/2819500/Highly-temperature-tolerant-p-type-carbon-nanotube",
+  //   publication: "AIP advances, 12, 045322-045322 (2022)",
+  //   imgPath: "/_images/device.jpeg",
+  // },
 ];
