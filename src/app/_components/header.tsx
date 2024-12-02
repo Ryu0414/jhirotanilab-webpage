@@ -77,9 +77,9 @@ export function Header({
           </div>
         </div>
       </div>
-      {/* スマホ・タブレット版 */}
 
-      <div className="lg:hidden fixed top-0 z-20 navbar bg-base-100 text-blue-700">
+      {/* スマホ・タブレット版 */}
+      <div className="lg:hidden fixed top-0 z-20 navbar bg-gray-900 text-blue-700">
         <div className="navbar-start pl-6">
           <Link href="/">
             <Image
@@ -93,7 +93,7 @@ export function Header({
         </div>
         <div className="navbar-end pr-4">
           <button
-            className="flex flex-col items-center border rounded-full p-2 shadow-lg w-12 h-12 md:w-16 md:h-16"
+            className="flex flex-col items-center border rounded-full p-2 shadow-lg w-12 h-12 md:w-16 md:h-16 text-white"
             onClick={openMobileMenu}
           >
             <Bars3Icon className="w-6 h-6 md:w-9 md:h-9" />

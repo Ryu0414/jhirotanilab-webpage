@@ -18,14 +18,14 @@ export default function Home() {
           <Image src={LogoImage} alt="logo" className="w-3/4 animate-fade" />
         </div>
       </div>
-      <div className="flex flex-col gap-20 justify-center items-center">
+      <div className="flex flex-col gap-10 md:gap-20 justify-center items-center">
         <div className="p-10 flex flex-col justify-center items-center gap-10">
           <div className="mt-10 text-2xl md:text-4xl lg:text-6xl text-center font-bold">
             Nanoscale Thermal Science
             <br />& Micro and Nanosystems
           </div>
           <Image src={HeroImage} alt="hero" className="lg:w-1/2" />
-          <div className="lg:w-2/3 text-base md:text-xl text-justify">
+          <div className="lg:w-2/3 text-sm md:text-xl text-justify leading-5 md:leading-6">
             My research team is an interdisciplinary research group specializing
             in both the experimental characterization of energy transport in
             nanomaterials and device fabrication for micro and nanosystems. My
@@ -37,7 +37,7 @@ export default function Home() {
             for supporting my academic researches.
           </div>
         </div>
-        <div className="w-5/6 lg:w-2/3 flex flex-col gap-10">
+        <div className="w-5/6 lg:w-2/3 flex flex-col gap-6 md:gap-10">
           <div className="text-4xl font-bold">RESEARCH</div>
           <div className="flex flex-col gap-10 lg:gap-8">
             <ResearchLi
