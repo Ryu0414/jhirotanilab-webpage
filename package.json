@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "body-scroll-lock-upgrade": "^1.1.0",
     "daisyui": "^4.12.11",
     "next": "14.2.14",
     "react": "^18",
