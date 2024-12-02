@@ -2,7 +2,7 @@
 import Link from "next/link";
 import LogoImage from "../_images/Unknown.png";
 import Image from "next/image";
-import { useState } from "react";
+import React, { SVGProps, useState } from "react";
 
 import {
   clearAllBodyScrollLocks,
@@ -15,7 +15,13 @@ import {
   ChevronDownIcon,
   Bars3Icon,
   XMarkIcon,
+  HomeIcon,
+  BookOpenIcon,
+  UserIcon,
+  NewspaperIcon,
+  CubeIcon,
   EnvelopeIcon,
+  UsersIcon,
 } from "@heroicons/react/24/outline";
 
 export function Header({
@@ -131,16 +137,34 @@ function MobileDrawer({
           </button>
         </div>
       </div>
-      <ul className="flex flex-col gap-2 md:gap-8 px-6">
-        <MenuLi label="Home" url="/" onClose={onClose} />
-        <MenuLi label="Research" url="/research" onClose={onClose} />
-        <MenuLi label="News" url="/news" onClose={onClose} />
-        <MenuLi label="Publications" url="/publications" onClose={onClose} />
-        <MenuLi label="Member" url="/member" onClose={onClose} />
-        <MenuLi label="Contact" url="/contact" onClose={onClose} />
+      <ul className="flex flex-col gap-4 md:gap-8 px-6">
+        <div className="flex flex-row items-center gap-4">
+          <HomeIcon className="w-6 h-6" />
+          <MenuLi label="Home" url="/" onClose={onClose} />
+        </div>
+        <div className="flex flex-row items-center gap-4">
+          <CubeIcon className="w-6 h-6" />
+          <MenuLi label="Research" url="/research" onClose={onClose} />
+        </div>
+        <div className="flex flex-row items-center gap-4">
+          <NewspaperIcon className="w-6 h-6s" />
+          <MenuLi label="News" url="/news" onClose={onClose} />
+        </div>
+        <div className="flex flex-row items-center gap-4">
+          <BookOpenIcon className="w-6 h-6" />
+          <MenuLi label="Publications" url="/publications" onClose={onClose} />
+        </div>
+        <div className="flex flex-row items-center gap-4">
+          <UsersIcon className="w-6 h-6" />
+          <MenuLi label="Member" url="/member" onClose={onClose} />
+        </div>
+        <div className="flex flex-row items-center gap-4">
+          <EnvelopeIcon className="w-6 h-6" />
+          <MenuLi label="Contact" url="/contact" onClose={onClose} />
+        </div>
       </ul>
       {/* <button className="btn w-4/5 self-center"><Link href="/download">資料請求</Link></button> */}
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col mt-8">
         <button
           className="btn w-4/5 self-center mb-4 bg-blue-400 text-white md:text-xl border-none"
           onClick={onClose}
@@ -162,9 +186,10 @@ function MenuLi({
 }) {
   return (
     <li
-      className="text-lg md:text-2xl hover:text-blue-900 hover:font-semibold"
+      className="text-lg md:text-2xl hover:text-blue-900 hover:font-semibold flex flex-row"
       onClick={onClose}
     >
+      {/* <Icon className="w-6 h-6" /> */}
       <Link href={url}>{label}</Link>
     </li>
   );
