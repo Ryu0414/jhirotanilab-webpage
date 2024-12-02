@@ -26,7 +26,7 @@ export default function Contact() {
             <p>〒 615-8540</p>
             <p>
               Kyoto University, Katsura Campus, Bldg. No. C3, Room S14,
-              Saikyo-Ku, Kyoto, JAPAN
+              Nishikyo-Ku, Kyoto, JAPAN
             </p>
             <p>
               Department of Micro Engineering, Graduate School of Engineering,

@@ -14,19 +14,18 @@ export default function Home() {
     <>
       <div className="relative h-[100vh] flex flex-col items-center">
         <Image src={HeroImage} alt="logo" className="h-[100vh] object-cover" />
-        <div className="w-4/5 absolute top-1/2 -translate-y-1/2 text-7xl h-48 flex items-center justify-center">
-          {/* <p className="text-white font-bold">HIROTANI RESEARCH GROUP</p> */}
+        <div className="w-full lg:w-4/5 absolute top-1/2 -translate-y-1/2 text-7xl h-48 flex items-center justify-center">
           <Image src={LogoImage} alt="logo" className="w-3/4 animate-fade" />
         </div>
       </div>
       <div className="flex flex-col gap-20 justify-center items-center">
         <div className="p-10 flex flex-col justify-center items-center gap-10">
-          <div className="mt-10 text-6xl text-center font-bold">
+          <div className="mt-10 text-2xl md:text-4xl lg:text-6xl text-center font-bold">
             Nanoscale Thermal Science
             <br />& Micro and Nanosystems
           </div>
-          <Image src={HeroImage} alt="hero" className="w-1/2" />
-          <div className="w-2/3 text-xl text-justify">
+          <Image src={HeroImage} alt="hero" className="lg:w-1/2" />
+          <div className="lg:w-2/3 text-base md:text-xl text-justify">
             My research team is an interdisciplinary research group specializing
             in both the experimental characterization of energy transport in
             nanomaterials and device fabrication for micro and nanosystems. My
@@ -38,9 +37,9 @@ export default function Home() {
             for supporting my academic researches.
           </div>
         </div>
-        <div className="w-2/3 flex flex-col gap-10">
+        <div className="w-5/6 lg:w-2/3 flex flex-col gap-10">
           <div className="text-4xl font-bold">RESEARCH</div>
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-10 lg:gap-8">
             <ResearchLi
               image={FDTRImage}
               title="Nanoscale and microscale thermal transport"
@@ -61,7 +60,7 @@ export default function Home() {
             <button className="btn btn-primary text-lg">Show More</button>
           </Link>
         </div>
-        <div className="w-2/3 flex flex-col gap-4">
+        <div className="w-5/6 lg:w-2/3 flex flex-col gap-4">
           <div className="text-4xl font-bold">NEWS</div>
           <span className="text-2xl">- Coming soon! -</span>
           {/* <div className="flex flex-col gap-4 pl-4">
@@ -106,8 +105,8 @@ const ResearchLi = ({
   link: string;
 }) => {
   return (
-    <div className="flex flex-row items-center gap-6">
-      <Image src={image} alt="" className="w-1/3" />
+    <div className="flex flex-col lg:flex-row items-center text-center lg:text-start gap-4 lg:gap-6">
+      <Image src={image} alt="" className="md:w-2/3 lg:w-1/3" />
       <div className="flex flex-col">
         <div className="text-2xl font-bold">{title}</div>
         <Link className="hover:text-blue-500" href={link}>
