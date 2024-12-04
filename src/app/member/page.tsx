@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Member() {
   return (
@@ -33,14 +34,50 @@ export default function Member() {
               </p>
             </div>
             <div className="self-center lg:self-start">
-              <Image
-                src={"/_images/KU_logo.png"}
-                width={200}
-                height={100}
-                alt="KU logo"
-              />
+              <Link
+                href={
+                  "https://kdb.iimc.kyoto-u.ac.jp/profile/ja.021b7faef0586f89.html#display-items_research"
+                }
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Image
+                  src={"/_images/KU_logo.png"}
+                  width={200}
+                  height={100}
+                  alt="KU logo"
+                />
+              </Link>
             </div>
           </div>
+        </div>
+        <div className="flex flex-row items-center gap-20">
+          <Link
+            href={"https://researchmap.jp/7000020868?lang=en"}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Image
+              src={"/_images/thumb_researchmap.png"}
+              width={200}
+              height={100}
+              alt="KU logo"
+            />
+          </Link>
+          <Link
+            href={
+              "https://scholar.google.com/citations?user=mKJl64kAAAAJ&hl=en"
+            }
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Image
+              src={"/_images/Google_Scholar_logo_2015.png"}
+              width={200}
+              height={100}
+              alt="KU logo"
+            />
+          </Link>
         </div>
         <div className="flex flex-col gap-10 mt-8 lg:mt-0">
           <div className="flex flex-col gap-4">
