@@ -7,26 +7,12 @@ type NewsType = {
 };
 const NEWS_LIST: NewsType[] = [
   {
-    date: "Octobar 1, 2024",
-    description: "Webpage is renewed.",
-    id: 1,
-    link: "",
-    imgPath: "/_images/device.jpeg",
-  },
-  {
-    date: "Octobar 31, 2024",
+    date: "November 19, 2024",
     description:
-      "We visited UC San Diego for 2024 UC San Diego×Kyoto University-KSAC Joint Symposium.",
-    id: 2,
-    link: "https://www.saci.kyoto-u.ac.jp/topics/news/16063.html",
-    imgPath: "/_images/20241031_UCSD.JPG",
-  },
-  {
-    date: "Octobar 31, 2024",
-    description: "We participated in TECHINNOVATION 2024 in Singapore.",
-    id: 3,
+      "We participated in a plant tour of JX Advanced Metals Corporation.",
+    id: 5,
     link: "",
-    imgPath: "/_images/20241031_singapore.JPG",
+    imgPath: "/_images/20241119_jx.JPG",
   },
   {
     date: "November 13, 2024",
@@ -37,12 +23,26 @@ const NEWS_LIST: NewsType[] = [
     imgPath: "/_images/20241113_istp.JPG",
   },
   {
-    date: "November 19, 2024",
-    description:
-      "We participated in a plant tour of JX Advanced Metals Corporation.",
-    id: 5,
+    date: "Octobar 31, 2024",
+    description: "We participated in TECHINNOVATION 2024 in Singapore.",
+    id: 3,
     link: "",
-    imgPath: "/_images/20241119_jx.JPG",
+    imgPath: "/_images/20241031_singapore.JPG",
+  },
+  {
+    date: "Octobar 31, 2024",
+    description:
+      "We visited UC San Diego for 2024 UC San Diego×Kyoto University-KSAC Joint Symposium.",
+    id: 2,
+    link: "https://www.saci.kyoto-u.ac.jp/topics/news/16063.html",
+    imgPath: "/_images/20241031_UCSD.JPG",
+  },
+  {
+    date: "Octobar 1, 2024",
+    description: "Webpage is renewed.",
+    id: 1,
+    link: "",
+    imgPath: "/_images/device.jpeg",
   },
 ];
 

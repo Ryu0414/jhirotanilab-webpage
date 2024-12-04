@@ -65,17 +65,15 @@ export default function Home() {
         <div className="w-5/6 lg:w-2/3 flex flex-col gap-4">
           <div className="text-4xl font-bold">NEWS</div>
           <div className="flex flex-col gap-4 pl-4">
-            {NEWS_LIST.reverse()
-              .slice(0, 3)
-              .map((news) => {
-                return (
-                  <NewsLi
-                    date={news.date}
-                    title={news.description}
-                    key={news.id}
-                  />
-                );
-              })}
+            {NEWS_LIST.slice(0, 3).map((news) => {
+              return (
+                <NewsLi
+                  date={news.date}
+                  title={news.description}
+                  key={news.id}
+                />
+              );
+            })}
           </div>
           <Link href={"/news"} className="text-xl self-center">
             <button className="btn btn-primary text-lg">Show More</button>
