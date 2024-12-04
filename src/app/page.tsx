@@ -1,3 +1,4 @@
+"use client";
 import Image, { StaticImageData } from "next/image";
 import HeroImage from "./_images/hero_image.jpeg";
 import LogoImage from "./_images/Unknown.png";
@@ -5,6 +6,7 @@ import FDTRImage from "./_images/fdtr.jpeg";
 import FlexibleImage from "./_images/flexible.jpeg";
 import DeviceImage from "./_images/device.jpeg";
 import Link from "next/link";
+import { NEWS_LIST } from "./news/page";
 
 // import nextConfig from "../../next.config.mjs";
 // const BASE_PATH = nextConfig.basePath || "";
@@ -62,21 +64,19 @@ export default function Home() {
         </div>
         <div className="w-5/6 lg:w-2/3 flex flex-col gap-4">
           <div className="text-4xl font-bold">NEWS</div>
-          <span className="text-2xl">- Coming soon! -</span>
-          {/* <div className="flex flex-col gap-4 pl-4">
-            <NewsLi
-              title="Akura Poyon received SUGOI Award."
-              date="2024/10/3"
-            />
-            <NewsLi
-              title="Akura Poyon received SUGOI Award."
-              date="2024/10/2"
-            />
-            <NewsLi
-              title="Akura Poyon received SUGOI Award."
-              date="2024/10/1"
-            />
-          </div> */}
+          <div className="flex flex-col gap-4 pl-4">
+            {NEWS_LIST.reverse()
+              .slice(0, 3)
+              .map((news) => {
+                return (
+                  <NewsLi
+                    date={news.date}
+                    title={news.description}
+                    key={news.id}
+                  />
+                );
+              })}
+          </div>
           <Link href={"/news"} className="text-xl self-center">
             <button className="btn btn-primary text-lg">Show More</button>
           </Link>
@@ -86,14 +86,14 @@ export default function Home() {
   );
 }
 
-// const NewsLi = ({ title, date }: { title: string; date: string }) => {
-//   return (
-//     <div className="flex flex-col gap-2 p-2 text-xl">
-//       <div>{date}</div>
-//       <div>{title}</div>
-//     </div>
-//   );
-// };
+const NewsLi = ({ title, date }: { title: string; date: string }) => {
+  return (
+    <div className="flex flex-col gap-2 p-2 text-xl">
+      <div className="font-bold">{date}</div>
+      <div>{title}</div>
+    </div>
+  );
+};
 
 const ResearchLi = ({
   title,
