@@ -6,7 +6,7 @@ import FDTRImage from "./_images/fdtr.jpeg";
 import FlexibleImage from "./_images/flexible.jpeg";
 import DeviceImage from "./_images/device.jpeg";
 import Link from "next/link";
-import { NEWS_LIST } from "./news/page";
+import NEWS_LIST from "./news/news";
 
 // import nextConfig from "../../next.config.mjs";
 // const BASE_PATH = nextConfig.basePath || "";
