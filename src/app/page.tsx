@@ -3,19 +3,49 @@ import Image, { StaticImageData } from "next/image";
 import HeroImage from "./_images/hero_image.jpeg";
 import LogoImage from "./_images/Unknown.png";
 import FDTRImage from "./_images/fdtr.jpeg";
-import FlexibleImage from "./_images/flexible.jpeg";
+import FlexibleImage from "./_images/flexible2.jpg";
 import DeviceImage from "./_images/device.jpeg";
 import Link from "next/link";
 import NEWS_LIST from "./news/news";
+import { useEffect, useState } from "react";
 
 // import nextConfig from "../../next.config.mjs";
 // const BASE_PATH = nextConfig.basePath || "";
 
 export default function Home() {
+  const imgPathList = [
+    // "/_images/hero_image.jpeg",
+    "/_images/fdtr.jpeg",
+    "/_images/flexible3.jpg",
+    "/_images/device.jpeg",
+  ];
+  const [imgCurrentIndex, setImgCurrentIndex] = useState(0);
+  const [isFading, setIsFading] = useState(false);
+
+  useEffect(() => {
+    const slideImageInterval = setInterval(() => {
+      setIsFading(true);
+      setTimeout(() => {
+        setImgCurrentIndex((prevIndex) => (prevIndex + 1) % imgPathList.length);
+        setIsFading(false);
+      }, 1000);
+    }, 6000);
+    return () => clearInterval(slideImageInterval);
+  }, []);
+
   return (
     <>
-      <div className="relative h-[100vh] flex flex-col items-center">
-        <Image src={HeroImage} alt="logo" className="h-[100vh] object-cover" />
+      <div className="relative h-[100vh] flex flex-col items-center bg-gray-500">
+        {/* <Image src={HeroImage} alt="logo" className="h-[100vh] object-cover" /> */}
+        <Image
+          src={imgPathList[imgCurrentIndex]}
+          alt={`${imgCurrentIndex}`}
+          width={1000}
+          height={1000}
+          className={`h-[100vh] object-cover w-full transition-opacity animate-fade duration-1000 ${
+            isFading ? "opacity-0" : "opacity-100"
+          }`}
+        />
         <div className="w-full lg:w-4/5 absolute top-1/2 -translate-y-1/2 text-7xl h-48 flex items-center justify-center">
           <Image src={LogoImage} alt="logo" className="w-3/4 animate-fade" />
         </div>
@@ -26,7 +56,13 @@ export default function Home() {
             Nanoscale Thermal Science
             <br />& Micro and Nanosystems
           </div>
-          <Image src={HeroImage} alt="hero" className="lg:w-1/2" />
+          {/* <Image
+            src={"/_images/fdtr.jpeg"}
+            alt="hero"
+            className="lg:w-1/2"
+            width={1000}
+            height={1000}
+          /> */}
           <div className="lg:w-2/3 text-sm md:text-xl text-justify leading-5 md:leading-6">
             My research team is an interdisciplinary research group specializing
             in both the experimental characterization of energy transport in

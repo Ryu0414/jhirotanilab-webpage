@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import FDTRImage from "../_images/fdtr.jpeg";
-import FlexibleImage from "../_images/flexible.jpeg";
+import FlexibleImage from "../_images/flexible2.jpg";
 import DeviceImage from "../_images/device.jpeg";
 
 export default function Research() {
