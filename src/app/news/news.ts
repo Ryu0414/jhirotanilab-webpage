@@ -42,7 +42,7 @@ const NEWS_LIST: NewsType[] = [
     description: "Webpage is renewed.",
     id: 1,
     link: "",
-    imgPath: "/_images/device.jpeg",
+    imgPath: "/_images/news_logo.png",
   },
 ];
 

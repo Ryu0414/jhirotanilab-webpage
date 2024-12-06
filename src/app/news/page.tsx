@@ -178,13 +178,24 @@ const NewsLi = ({
           )}
         </div>
         <div className="self-center w-2/3">
-          <Image
-            src={imgPath}
-            alt={title}
-            width={200}
-            height={200}
-            className="w-full"
-          />
+          {imgPath !== "" && (
+            <Image
+              src={imgPath}
+              alt={title}
+              width={200}
+              height={200}
+              className="w-full"
+            />
+          )}
+          {/* {imgPath === "" && (
+            <Image
+              src="/_images/news_logo.png"
+              alt={title}
+              width={200}
+              height={200}
+              className="w-full"
+            />
+          )} */}
         </div>
       </div>
     </>
