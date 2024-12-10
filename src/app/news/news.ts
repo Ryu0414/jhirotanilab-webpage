@@ -7,6 +7,14 @@ type NewsType = {
 };
 const NEWS_LIST: NewsType[] = [
   {
+    date: "December 10, 2024",
+    description:
+      "We will participate in SEMICON Japan at Tokyo International Exhibition Center from December 11 to 13.",
+    id: 6,
+    link: "",
+    imgPath: "/_images/20241210_semiconJapan.jpg",
+  },
+  {
     date: "November 19, 2024",
     description:
       "We participated in a plant tour of JX Advanced Metals Corporation.",
