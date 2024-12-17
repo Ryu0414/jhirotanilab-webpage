@@ -7,12 +7,28 @@ type NewsType = {
 };
 const NEWS_LIST: NewsType[] = [
   {
+    date: "December 11, 2024",
+    description:
+      "We won the Excellence Award at Academia Award in Semicon Japan 2024!",
+    id: 8,
+    link: "",
+    imgPath: "/_images/20241211_semiconJapanAward.jpg",
+  },
+  {
     date: "December 10, 2024",
     description:
       "We will participate in SEMICON Japan at Tokyo International Exhibition Center from December 11 to 13.",
-    id: 6,
+    id: 7,
     link: "",
     imgPath: "/_images/20241210_semiconJapan.jpg",
+  },
+  {
+    date: "December 6, 2024",
+    description:
+      "We presented at the MATERIALS RESEARCH SOCIETY (MRS). The titles of presentations are 'Carbon Nanotube Thin Film PN Junction Diode with High Temperature Tolerance Using Chemical Dopants.' (Y. Matsunaga et al.), 'Estimation of Thermal Conductivity Measurement of Ti3C2Tx MXene Thin Film Using Frequency-Domain Thermoreflectance' (Y. Akura et al.) and 'A Highly Sensitive Flexible Humidity Sensor Based on Ti3C2Tx MXene/Bentonite Thin Film' (H. Morotomi et al.). Y. Matsunaga won the Best Poster Award!",
+    id: 6,
+    link: "",
+    imgPath: "/_images/20241206_MRS.jpg",
   },
   {
     date: "November 19, 2024",

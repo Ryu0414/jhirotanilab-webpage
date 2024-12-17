@@ -149,7 +149,7 @@ const NewsLi = ({
         </div>
         <div className="flex flex-col gap-2 p-2 text-xl w-2/3">
           <div className="font-bold">{date}</div>
-          <div>{title}</div>
+          <div className="text-justify">{title}</div>
           {link !== "" && (
             <Link
               href={"https://www.saci.kyoto-u.ac.jp/topics/news/16063.html"}
