@@ -152,7 +152,7 @@ const NewsLi = ({
           <div className="text-justify">{title}</div>
           {link !== "" && (
             <Link
-              href={"https://www.saci.kyoto-u.ac.jp/topics/news/16063.html"}
+              href={link}
               className="underline"
               target="_blank"
               rel="noreferrer noopener"
@@ -168,7 +168,7 @@ const NewsLi = ({
           <div className="text-justify">{title}</div>
           {link !== "" && (
             <Link
-              href={"https://www.saci.kyoto-u.ac.jp/topics/news/16063.html"}
+              href={link}
               className="underline"
               target="_blank"
               rel="noreferrer noopener"

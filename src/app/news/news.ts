@@ -11,7 +11,7 @@ const NEWS_LIST: NewsType[] = [
     description:
       "We won the Excellence Award at Academia Award in Semicon Japan 2024!",
     id: 8,
-    link: "",
+    link: "https://www.semiconjapan.org/jp/workforce/academia-award",
     imgPath: "/_images/20241211_semiconJapanAward.jpg",
   },
   {
