@@ -7,6 +7,14 @@ type NewsType = {
 };
 const NEWS_LIST: NewsType[] = [
   {
+    date: "December 18, 2024",
+    description:
+      "Our research paper was published in AIP Advances. The title of research is 'Enhanced water adsorption properties of Ti3C2Tx MXene/bentonite thin films for highly sensitive humidity sensing'(H. Morotomi et al.).",
+    id: 9,
+    link: "https://doi.org/10.1063/5.0245810",
+    imgPath: "/_images/20241218_moromoro.jpg",
+  },
+  {
     date: "December 11, 2024",
     description:
       "We won the Excellence Award at Academia Award in Semicon Japan 2024!",

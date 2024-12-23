@@ -170,6 +170,15 @@ const PubLi = ({
 const NEWS_LIST: NewsType[] = [
   {
     title:
+      "Enhanced water adsorption properties of Ti3C2Tx MXene/bentonite thin films for highly sensitive humidity sensing",
+    authors:
+      "Hiroya Morotomi, Yuki Matsunaga, Lijun Liu, Hisashi Sugime, Jun Hirotani",
+    id: 40,
+    link: "https://doi.org/10.1063/5.0245810",
+    publication: "AIP Advances, 14(12) 125123 (2024)",
+  },
+  {
+    title:
       "Carbon nanotube thin film pn junction diode with high-temperature tolerance using chemical dopants",
     authors: "Yuki Matsunaga, Haruki Uchiyama, Haruka Omachi, Jun Hirotani",
     id: 39,
