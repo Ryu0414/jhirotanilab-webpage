@@ -50,21 +50,25 @@ export default function Research() {
             />
           </div> */}
         </div>
-        <div className="mt-24">
-          <div className="text-2xl lg:text-3xl  font-bold">Acknowledgments</div>
-          <div className="mt-2 md:mt-4 text-xl lg:text-2xl font-bold">
+        <div className="mt-24 flex flex-col">
+          <div className="text-2xl lg:text-4xl font-bold self-center">
+            Acknowledgments
+          </div>
+          <div className="mt-2 md:mt-8 text-xl lg:text-3xl font-bold">
             Financial Supports
           </div>
           <div>
-            <ul className="list-disc pl-4 md:text-lg">
+            <ul className="md:mt-4 list-disc pl-4 md:text-2xl md:space-y-2">
               <li>JSPS Grant-in-Aid for Scientific Research</li>
               <li>JST PRESTO</li>
               <li>NEDO</li>
               <li>JKA</li>
             </ul>
-            <span>etc.</span>
+            <div className="md:mt-2">
+              <span className="md:text-xl">etc.</span>
+            </div>
           </div>
-          <div className="flex flex-row gap-4">
+          <div className="flex flex-row gap-4 md:mt-4 w-full">
             <Image src={BunnerImage} alt="バナー1" className="w-1/2 md:w-1/4" />
             <Image
               src={Bunner2Image}
@@ -72,10 +76,12 @@ export default function Research() {
               className="w-1/2 md:w-1/4"
             />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 md:mt-5 md:text-xl">
             <Link
               className="hover:text-blue-500 underline"
               href="https://kdb.iimc.kyoto-u.ac.jp/profile_private/ja.021b7faef0586f89.html#display-items_research"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               Details
             </Link>
