@@ -62,7 +62,7 @@ const NEWS_LIST: NewsType[] = [
     imgPath: "/_images/20241031_singapore.JPG",
   },
   {
-    date: "Octobar 31, 2024",
+    date: "Octobar 14, 2024",
     description:
       "We visited UC San Diego for 2024 UC San Diego×Kyoto University-KSAC Joint Symposium.",
     id: 2,
