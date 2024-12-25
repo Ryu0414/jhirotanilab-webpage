@@ -8,6 +8,7 @@ type NewsType = {
   publication: string;
   id: number;
   link: string;
+  detail?: string;
 };
 
 export default function Publications() {
@@ -56,6 +57,7 @@ export default function Publications() {
                 id={news.id}
                 publication={news.publication}
                 authors={news.authors}
+                detail={news.detail}
               />
             );
           })}
@@ -131,12 +133,14 @@ const PubLi = ({
   link,
   publication,
   id,
+  detail,
 }: {
   title: string;
   authors: string;
   link: string;
   publication: string;
   id: number;
+  detail?: string;
 }) => {
   return (
     <>
@@ -152,6 +156,7 @@ const PubLi = ({
           </Link>
           <div>{authors}</div>
           <div>{publication}</div>
+          <div className="text-red-500 italic font-bold">{detail}</div>
         </div>
       </div>
       <div className="flex md:hidden flex-col gap-2 items-center">
@@ -161,6 +166,7 @@ const PubLi = ({
         <div className="flex flex-col text-sm self-start">
           <div>{authors}</div>
           <div>{publication}</div>
+          <div className="text-red-400 italic">{detail}</div>
         </div>
       </div>
     </>
@@ -176,6 +182,7 @@ const NEWS_LIST: NewsType[] = [
     id: 40,
     link: "https://doi.org/10.1063/5.0245810",
     publication: "AIP Advances, 14(12) 125123 (2024)",
+    detail: "Selected as a featured article.",
   },
   {
     title:
