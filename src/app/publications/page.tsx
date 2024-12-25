@@ -183,8 +183,7 @@ const NEWS_LIST: NewsType[] = [
     authors: "Yuki Matsunaga, Haruki Uchiyama, Haruka Omachi, Jun Hirotani",
     id: 39,
     link: "https://doi.org/10.35848/1347-4065/ad68e0",
-    publication:
-      "Japanese Journal of Applied Physics, 63(8) 080904-080904 (2024)",
+    publication: "Japanese Journal of Applied Physics, 63(8) 080904 (2024)",
   },
   {
     title:
@@ -200,8 +199,7 @@ const NEWS_LIST: NewsType[] = [
     authors: "Wei Yu, Amit Banerjee, Jun Hirotani, Toshiyuki Tsuchiya",
     id: 37,
     link: "https://doi.org/10.35848/1347-4065/ad2979",
-    publication:
-      "Japanese Journal of Applied Physics, 63(3) 03SP74-03SP74 (2024)",
+    publication: "Japanese Journal of Applied Physics, 63(3) 03SP74 (2024)",
   },
   {
     title:
@@ -235,8 +233,7 @@ const NEWS_LIST: NewsType[] = [
       "Masaki Shimofuri, Taichi Murakami, Shugo Miyake, Amit Banerjee, Jun Hirotani, Toshiyuki Tsuchiya",
     id: 33,
     link: "https://doi.org/10.35848/1347-4065/ad07f8",
-    publication:
-      "Japanese Journal of Applied Physics, 62(11) 112006-112006 (2023)",
+    publication: "Japanese Journal of Applied Physics, 62(11) 112006 (2023)",
   },
   {
     title:
@@ -271,7 +268,7 @@ const NEWS_LIST: NewsType[] = [
     authors: "Yuki Matsunaga, Jun Hirotani, Haruka Omachi",
     id: 29,
     link: "https://doi.org/10.1063/5.0087868",
-    publication: "AIP Advances, 12(4) 045322-045322 (2022)",
+    publication: "AIP Advances, 12(4) 045322 (2022)",
   },
   {
     title:
@@ -340,7 +337,7 @@ const NEWS_LIST: NewsType[] = [
       "Keita Funayama, Jun Hirotani, Atsushi Miura, Hiroya Tanaka, Yutaka Ohno, Yukihiro Tadokoro",
     id: 21,
     link: "https://doi.org/10.1063/5.0058300",
-    publication: "AIP Advances, 11(7) 075212-075212 (2021)",
+    publication: "AIP Advances, 11(7) 075212 (2021)",
   },
   {
     title:
@@ -349,7 +346,7 @@ const NEWS_LIST: NewsType[] = [
       "Fu Wen Tan, Jun Hirotani, Yoshiyuki Nonoguchi, Shigeru Kishimoto, Hiromichi Kataura, Yutaka Ohno",
     id: 20,
     link: "https://doi.org/10.35848/1882-0786/abe8aa",
-    publication: "Applied Physics Express, 14(4) 045002-045002 (2021)",
+    publication: "Applied Physics Express, 14(4) 045002 (2021)",
   },
   {
     title:
@@ -401,7 +398,7 @@ const NEWS_LIST: NewsType[] = [
       "Funayama Keita, Tanaka Hiroya, Hirotani Jun, Shimaoka Keiichi, Ohno Yutaka, Tadokoro Yukihiro",
     id: 14,
     link: "https://doi.org/10.1088/1361-6528/ab33c8",
-    publication: "NANOTECHNOLOGY, 30(42) 425201-425201 (2019)",
+    publication: "NANOTECHNOLOGY, 30(42) 425201 (2019)",
   },
   {
     title:
@@ -435,7 +432,7 @@ const NEWS_LIST: NewsType[] = [
       "Funayama Keita, Tanaka Hiroya, Hirotani Jun, Shimaoka Keiichi, Ohno Yutaka, Tadokoro Yukihiro",
     id: 10,
     link: "https://doi.org/10.1109/ACCESS.2019.2913692",
-    publication: "IEEE ACCESS, 7 57820-57828-57828 (2019)",
+    publication: "IEEE ACCESS, 7 57820-57828 (2019)",
   },
   {
     title:
