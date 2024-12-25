@@ -2,6 +2,9 @@ import Image, { StaticImageData } from "next/image";
 import FDTRImage from "../_images/fdtr.jpeg";
 import FlexibleImage from "../_images/flexible2.jpg";
 import DeviceImage from "../_images/device.jpeg";
+import BunnerImage from "../_images/JKA_bunner.gif";
+import Bunner2Image from "../_images/JKA_banner2.png";
+import Link from "next/link";
 
 export default function Research() {
   return (
@@ -46,6 +49,37 @@ export default function Research() {
               details="details details details details details details details details details details details details details details details details details details details details details "
             />
           </div> */}
+        </div>
+        <div className="mt-24">
+          <div className="text-2xl lg:text-3xl  font-bold">Acknowledgments</div>
+          <div className="mt-2 md:mt-4 text-xl lg:text-2xl font-bold">
+            Financial Supports
+          </div>
+          <div>
+            <ul className="list-disc pl-4 md:text-lg">
+              <li>JSPS Grant-in-Aid for Scientific Research</li>
+              <li>JST PRESTO</li>
+              <li>NEDO</li>
+              <li>JKA</li>
+            </ul>
+            <span>etc.</span>
+          </div>
+          <div className="flex flex-row gap-4">
+            <Image src={BunnerImage} alt="バナー1" className="w-1/2 md:w-1/4" />
+            <Image
+              src={Bunner2Image}
+              alt="バナー2"
+              className="w-1/2 md:w-1/4"
+            />
+          </div>
+          <div className="mt-2">
+            <Link
+              className="hover:text-blue-500 underline"
+              href="https://kdb.iimc.kyoto-u.ac.jp/profile_private/ja.021b7faef0586f89.html#display-items_research"
+            >
+              Details
+            </Link>
+          </div>
         </div>
       </div>
     </div>
