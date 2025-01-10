@@ -7,9 +7,25 @@ type NewsType = {
 };
 const NEWS_LIST: NewsType[] = [
   {
+    date: "January 9, 2025",
+    description:
+      "Our research paper was published in Review of Scientific Instruments. The title of research is 'Frequency-domain thermoreflectance with beam offset without the spot distortion for accurate thermal conductivity measurement of anisotropic materials' (Y. Akura et al.).",
+    id: 11,
+    link: "https://doi.org/10.1063/5.0237004",
+    imgPath: "/_images/20250109_akura_paper_cover.png",
+  },
+  {
+    date: "January 2, 2025",
+    description:
+      "Our research paper was published in Applied Physics Letters. The title of research is 'Flexible 3ω sensors on submicron-thick parylene substrates for thermal conductivity measurements of liquids and soft materials' (R. Yamasaki et al.).",
+    id: 10,
+    link: "https://doi.org/10.1063/5.0239596",
+    imgPath: "/_images/20250102_yama_paper_image.png",
+  },
+  {
     date: "December 18, 2024",
     description:
-      "Our research paper was published in AIP Advances. The title of research is 'Enhanced water adsorption properties of Ti3C2Tx MXene/bentonite thin films for highly sensitive humidity sensing'(H. Morotomi et al.).",
+      "Our research paper was published in AIP Advances. The title of research is 'Enhanced water adsorption properties of Ti3C2Tx MXene/bentonite thin films for highly sensitive humidity sensing' (H. Morotomi et al.).",
     id: 9,
     link: "https://doi.org/10.1063/5.0245810",
     imgPath: "/_images/20241218_moromoro.jpg",
@@ -45,6 +61,14 @@ const NEWS_LIST: NewsType[] = [
     id: 5,
     link: "",
     imgPath: "/_images/20241119_jx.JPG",
+  },
+  {
+    date: "November 15, 2024",
+    description:
+      "We gave an invited talk on thermal management business at DEEPTECH KANSAI.",
+    id: 12,
+    link: "https://osaka-startup.com/deeptech/",
+    imgPath: "/_images/news_logo.png",
   },
   {
     date: "November 13, 2024",
