@@ -68,7 +68,7 @@ const NEWS_LIST: NewsType[] = [
       "We gave an invited talk on thermal management business at DEEPTECH KANSAI.",
     id: 12,
     link: "https://osaka-startup.com/deeptech/",
-    imgPath: "/_images/news_logo.png",
+    imgPath: "/_images/20241115_KANSAI.png",
   },
   {
     date: "November 13, 2024",
