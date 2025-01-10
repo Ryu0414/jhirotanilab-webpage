@@ -176,6 +176,26 @@ const PubLi = ({
 const NEWS_LIST: NewsType[] = [
   {
     title:
+      "Frequency-domain thermoreflectance with beam offset without the spot distortion for accurate thermal conductivity measurement of anisotropic materials",
+    authors:
+      "Yuki Akura, Yasuaki Ikeda, Yuki Matsunaga, Masaki Shimofuri, Amit Banerjee, Toshiyuki Tsuchiya, Jun Hirotani",
+    id: 42,
+    link: "https://doi.org/10.1063/5.0237004",
+    publication: "Review of Scientific Instruments, 96(1) 014902 (2025)",
+    detail: "",
+  },
+  {
+    title:
+      "Flexible 3ω sensors on submicron-thick parylene substrates for thermal conductivity measurements of liquids and soft materials",
+    authors:
+      "Ryuto Yamasaki, Yuki Matsunaga, Yuki Akura, Masaki Shimofuri, Amit Banerjee, Toshiyuki Tsuchiya, Jun Hirotani",
+    id: 41,
+    link: "https://doi.org/10.1063/5.0239596",
+    publication: "Applied Physics Letters, 126(1) 014101 (2025)",
+    detail: "Selected as a cover article.",
+  },
+  {
+    title:
       "Enhanced water adsorption properties of Ti3C2Tx MXene/bentonite thin films for highly sensitive humidity sensing",
     authors:
       "Hiroya Morotomi, Yuki Matsunaga, Lijun Liu, Hisashi Sugime, Jun Hirotani",
