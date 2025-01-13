@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "body-scroll-lock-upgrade": "^1.1.0",
     "daisyui": "^4.12.11",
     "next": "14.2.14",
+    "next-sitemap": "^4.2.3",
     "react": "^18",
     "react-dom": "^18"
   },
