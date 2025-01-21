@@ -7,6 +7,9 @@ import FlexibleImage from "./_images/flexible2.jpg";
 import DeviceImage from "./_images/device.jpeg";
 import Link from "next/link";
 import NEWS_LIST from "./news/news";
+
+import { YouTubeEmbed } from "@next/third-parties/google";
+
 // import { useEffect, useState } from "react";
 
 // import nextConfig from "../../next.config.mjs";
@@ -63,6 +66,22 @@ export default function Home() {
             width={1000}
             height={1000}
           /> */}
+          <div className="hidden md:flex items-center">
+            <YouTubeEmbed
+              videoid="beeJIm58N10"
+              height={400}
+              width={700}
+              params="controls=0"
+            />
+          </div>
+          <div className="flex items-center md:hidden">
+            <YouTubeEmbed
+              videoid="beeJIm58N10"
+              height={160}
+              width={300}
+              params="controls=0"
+            />
+          </div>
           <div className="lg:w-2/3 text-sm md:text-xl text-justify leading-5 md:leading-6">
             My research team is an interdisciplinary research group specializing
             in both the experimental characterization of energy transport in
