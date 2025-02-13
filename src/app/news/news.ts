@@ -1,15 +1,15 @@
 type NewsType = {
-  date: string;
-  description: string;
-  id: number;
-  imgPath: string;
-  link: string;
+  date: string; // 日付
+  description: string; // 内容
+  id: number; // id
+  imgPath: string; // 写真のパス
+  link: string; // リンク先
 };
 const NEWS_LIST: NewsType[] = [
   {
     date: "January 9, 2025",
     description:
-      "Our research paper was published in Review of Scientific Instruments. The title of research is 'Frequency-domain thermoreflectance with beam offset without the spot distortion for accurate thermal conductivity measurement of anisotropic materials' (Y. Akura et al.).",
+      "Our research paper was published in Review of Scientific Instruments. The title of research was 'Frequency-domain thermoreflectance with beam offset without the spot distortion for accurate thermal conductivity measurement of anisotropic materials' (Y. Akura et al.).",
     id: 11,
     link: "https://doi.org/10.1063/5.0237004",
     imgPath: "/_images/20250109_akura_paper_cover.png",
@@ -17,7 +17,7 @@ const NEWS_LIST: NewsType[] = [
   {
     date: "January 2, 2025",
     description:
-      "Our research paper was published in Applied Physics Letters. The title of research is 'Flexible 3ω sensors on submicron-thick parylene substrates for thermal conductivity measurements of liquids and soft materials' (R. Yamasaki et al.).",
+      "Our research paper was published in Applied Physics Letters. The title of research was 'Flexible 3ω sensors on submicron-thick parylene substrates for thermal conductivity measurements of liquids and soft materials' (R. Yamasaki et al.).",
     id: 10,
     link: "https://doi.org/10.1063/5.0239596",
     imgPath: "/_images/20250102_yama_paper_image.png",
@@ -25,7 +25,7 @@ const NEWS_LIST: NewsType[] = [
   {
     date: "December 18, 2024",
     description:
-      "Our research paper was published in AIP Advances. The title of research is 'Enhanced water adsorption properties of Ti3C2Tx MXene/bentonite thin films for highly sensitive humidity sensing' (H. Morotomi et al.).",
+      "Our research paper was published in AIP Advances. The title of research was 'Enhanced water adsorption properties of Ti3C2Tx MXene/bentonite thin films for highly sensitive humidity sensing' (H. Morotomi et al.).",
     id: 9,
     link: "https://doi.org/10.1063/5.0245810",
     imgPath: "/_images/20241218_moromoro.jpg",
@@ -49,7 +49,7 @@ const NEWS_LIST: NewsType[] = [
   {
     date: "December 6, 2024",
     description:
-      "We presented at the MATERIALS RESEARCH SOCIETY (MRS). The titles of presentations are 'Carbon Nanotube Thin Film PN Junction Diode with High Temperature Tolerance Using Chemical Dopants.' (Y. Matsunaga et al.), 'Estimation of Thermal Conductivity Measurement of Ti3C2Tx MXene Thin Film Using Frequency-Domain Thermoreflectance' (Y. Akura et al.) and 'A Highly Sensitive Flexible Humidity Sensor Based on Ti3C2Tx MXene/Bentonite Thin Film' (H. Morotomi et al.).",
+      "We presented at the MATERIALS RESEARCH SOCIETY (MRS). The titles of presentations were 'Carbon Nanotube Thin Film PN Junction Diode with High Temperature Tolerance Using Chemical Dopants.' (Y. Matsunaga et al.), 'Estimation of Thermal Conductivity Measurement of Ti3C2Tx MXene Thin Film Using Frequency-Domain Thermoreflectance' (Y. Akura et al.) and 'A Highly Sensitive Flexible Humidity Sensor Based on Ti3C2Tx MXene/Bentonite Thin Film' (H. Morotomi et al.).",
     id: 6,
     link: "",
     imgPath: "/_images/20241206_MRS.jpg",
@@ -73,7 +73,7 @@ const NEWS_LIST: NewsType[] = [
   {
     date: "November 13, 2024",
     description:
-      "We presented at the 34th International Symposium on Transport Phenomena (ISTP-34). The titles of presentations are 'Flexible Three-Omega Sensors Fabricated on Parylene Substrates' (R. Yamasaki et al.) and 'Estimation of Thermal Conductivity Profile in Depth Direction Using Machine Learning in Frequency Domain Thermoreflectance' (Y. Ikeda et al.).",
+      "We presented at the 34th International Symposium on Transport Phenomena (ISTP-34). The titles of presentations were 'Flexible Three-Omega Sensors Fabricated on Parylene Substrates' (R. Yamasaki et al.) and 'Estimation of Thermal Conductivity Profile in Depth Direction Using Machine Learning in Frequency Domain Thermoreflectance' (Y. Ikeda et al.).",
     id: 4,
     link: "",
     imgPath: "/_images/20241113_istp.JPG",
@@ -95,7 +95,7 @@ const NEWS_LIST: NewsType[] = [
   },
   {
     date: "Octobar 1, 2024",
-    description: "Webpage is renewed.",
+    description: "Webpage was renewed.",
     id: 1,
     link: "",
     imgPath: "/_images/news_logo.png",
