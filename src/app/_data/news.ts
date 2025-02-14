@@ -8,6 +8,14 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "February 6, 2025",
+    description:
+      "Our research paper was published in Journal of Applied Physics. The title of research was 'Estimating depth-directional thermal conductivity profiles using neural network with dropout in frequency-domain thermoreflectance' (Y. Ikeda et al.).",
+    id: 12,
+    link: "https://doi.org/10.1063/5.0248430",
+    imgPath: "/_images/news/20250206_ikeda_paper_cover.jpg",
+  },
+  {
     date: "January 9, 2025",
     description:
       "Our research paper was published in Review of Scientific Instruments. The title of research was 'Frequency-domain thermoreflectance with beam offset without the spot distortion for accurate thermal conductivity measurement of anisotropic materials' (Y. Akura et al.).",
