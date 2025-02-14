@@ -10,6 +10,16 @@ export type PubType = {
 const PUB_LIST: PubType[] = [
   {
     title:
+      "Estimating depth-directional thermal conductivity profiles using neural network with dropout in frequency-domain thermoreflectance",
+    authors:
+      "Yasuaki Ikeda, Yuki Akura, Masaki Shimofuri, Amit Banerjee, Toshiyuki Tsuchiya, Jun Hirotani",
+    id: 43,
+    link: "https://doi.org/10.1063/5.0248430",
+    publication: "Journal of Applied Physics, 137(5) 055106 (2025)",
+    detail: "",
+  },
+  {
+    title:
       "Frequency-domain thermoreflectance with beam offset without the spot distortion for accurate thermal conductivity measurement of anisotropic materials",
     authors:
       "Yuki Akura, Yasuaki Ikeda, Yuki Matsunaga, Masaki Shimofuri, Amit Banerjee, Toshiyuki Tsuchiya, Jun Hirotani",
