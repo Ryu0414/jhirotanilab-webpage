@@ -9,7 +9,7 @@ const NEWS_LIST: NewsType[] = [
   {
     date: "January 9, 2025",
     description:
-      "Our research paper was published in Review of Scientific Instruments. The title of research is 'Frequency-domain thermoreflectance with beam offset without the spot distortion for accurate thermal conductivity measurement of anisotropic materials' (Y. Akura et al.).",
+      "Our research paper was published in Review of Scientific Instruments. The title of research was 'Frequency-domain thermoreflectance with beam offset without the spot distortion for accurate thermal conductivity measurement of anisotropic materials' (Y. Akura et al.).",
     id: 11,
     link: "https://doi.org/10.1063/5.0237004",
     imgPath: "/_images/20250109_akura_paper_cover.png",
