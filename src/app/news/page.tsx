@@ -3,14 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import NEWS_LIST from "./news";
-type NewsType = {
-  date: string;
-  description: string;
-  id: number;
-  imgPath: string;
-  link: string;
-};
+import NEWS_LIST, { NewsType } from "../_data/news";
 
 export default function News() {
   const [selectingPage, setSelcetingPage] = useState(1);
