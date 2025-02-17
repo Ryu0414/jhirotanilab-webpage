@@ -8,6 +8,14 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "February 13, 2025",
+    description:
+      "Jun Hirotani presented an invited talk about the thermal management business at Deep Tech Forum Boston.",
+    id: 14,
+    link: "https://ksac.site/boston2025/",
+    imgPath: "/_images/news/20250217_DeepTechForum_Boston.png",
+  },
+  {
     date: "February 6, 2025",
     description:
       "Our research paper was published in Journal of Applied Physics. The title of research was 'Estimating depth-directional thermal conductivity profiles using neural network with dropout in frequency-domain thermoreflectance' (Y. Ikeda et al.).",
