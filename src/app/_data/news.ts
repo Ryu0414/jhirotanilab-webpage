@@ -8,6 +8,14 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "March 19, 2025",
+    description:
+      "I gave an invited talk on thermal measurement technology at the 275th Special CMSM seminar in NIMS.",
+    id: 15,
+    link: "https://www.nims.go.jp/mmu/seminar/250319.html",
+    imgPath: "/_images/news/20250319_CMSM_seminar_in_NIMS.png",
+  },
+  {
     date: "February 13, 2025",
     description:
       "Jun Hirotani presented an invited talk about the thermal management business at Deep Tech Forum Boston.",
