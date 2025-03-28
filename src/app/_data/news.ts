@@ -8,9 +8,17 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "March 26, 2025",
+    description:
+      "Jun Hirotani gave a pitch about creation of a global startup for solving thermal issues with high-performance thermal management products at KSAC DEMO DAY 2025.",
+    id: 16,
+    link: "https://ksac.site/next-pioneer-demoday2025/en/index.html",
+    imgPath: "/public/_images/news/20250326_KSAC_demo_2025.png",
+  },
+  {
     date: "March 19, 2025",
     description:
-      "I gave an invited talk on thermal measurement technology at the 275th Special CMSM seminar in NIMS.",
+      "Jun Hirotani gave an invited talk on thermal measurement technology at the 275th Special CMSM seminar in NIMS.",
     id: 15,
     link: "https://www.nims.go.jp/mmu/seminar/250319.html",
     imgPath: "/_images/news/20250319_CMSM_seminar_in_NIMS.png",
@@ -66,7 +74,7 @@ const NEWS_LIST: NewsType[] = [
   {
     date: "December 10, 2024",
     description:
-      "We will participate in SEMICON Japan at Tokyo International Exhibition Center from December 11 to 13.",
+      "We participated in SEMICON Japan at Tokyo International Exhibition Center from December 11 to 13.",
     id: 8,
     link: "",
     imgPath: "/_images/news/20241210_semiconJapan.jpg",
