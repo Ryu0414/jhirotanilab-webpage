@@ -10,7 +10,7 @@ const NEWS_LIST: NewsType[] = [
   {
     date: "March 26, 2025",
     description:
-      "Jun Hirotani gave a pitch about creation of a global startup for solving thermal issues with high-performance thermal management products at KSAC DEMO DAY 2025.",
+      "Jun Hirotani ave a pitch about creation of a global startup for solving thermal issues with high-performance thermal management products at KSAC DEMO DAY 2025.",
     id: 16,
     link: "https://ksac.site/next-pioneer-demoday2025/en/index.html",
     imgPath: "/public/_images/news/20250326_KSAC_demo_2025.png",
