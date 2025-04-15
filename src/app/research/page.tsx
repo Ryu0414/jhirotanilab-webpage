@@ -4,6 +4,7 @@ import FlexibleImage from "../_images/flexible2.jpg";
 import DeviceImage from "../_images/device.jpeg";
 import BunnerImage from "../_images/JKA_bunner.gif";
 import Bunner2Image from "../_images/JKA_banner2.png";
+import Bunner3Image from "../_images/JKA_banner3.png";
 import Link from "next/link";
 
 export default function Research() {
@@ -73,6 +74,11 @@ export default function Research() {
             <Image
               src={Bunner2Image}
               alt="バナー2"
+              className="w-1/2 md:w-1/4"
+            />
+            <Image
+              src={Bunner3Image}
+              alt="バナー3"
               className="w-1/2 md:w-1/4"
             />
           </div>
