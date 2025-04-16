@@ -7,6 +7,9 @@ import FlexibleImage from "./_images/flexible2.jpg";
 import DeviceImage from "./_images/device.jpeg";
 import Link from "next/link";
 import NEWS_LIST from "./_data/news";
+import BunnerImage from "./_images/JKA_bunner.gif";
+import Bunner2Image from "./_images/JKA_banner2.png";
+import Bunner3Image from "./_images/JKA_banner3.png";
 
 import { YouTubeEmbed } from "@next/third-parties/google";
 
@@ -92,6 +95,34 @@ export default function Home() {
           <Link href={"/news"} className="text-xl self-center">
             <button className="btn btn-primary text-lg">Show More</button>
           </Link>
+        </div>
+        <div className="w-5/6 lg:w-2/3 flex flex-col gap-4">
+          <div className="text-2xl lg:text-4xl font-bold self-center">Acknowledgments</div>
+          <div className="mt-2 md:mt-8 text-xl lg:text-3xl font-bold">Financial Supports</div>
+          <div>
+            <ul className="md:mt-4 list-disc pl-4 md:text-2xl md:space-y-2">
+              <li>JSPS Grant-in-Aid for Scientific Research</li>
+              <li>JST PRESTO</li>
+              <li>NEDO</li>
+              <li>JKA</li>
+            </ul>
+            <div className="md:mt-2">
+              <span className="md:text-xl">etc.</span>
+            </div>
+          </div>
+          <div className="flex flex-row gap-4 md:mt-4 w-full">
+            <Image src={BunnerImage} alt="バナー1" className="w-1/2 md:w-1/4" />
+            <Image
+              src={Bunner2Image}
+              alt="バナー2"
+              className="w-1/2 md:w-1/4"
+            />
+            <Image
+              src={Bunner3Image}
+              alt="バナー3"
+              className="w-1/2 md:w-1/4"
+            />
+          </div>
         </div>
       </div>
     </>
