@@ -111,7 +111,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-row gap-4 md:mt-4 w-full">
-            <Image src={BunnerImage} alt="バナー1" className="w-1/2 md:w-1/4" />
+            {/* <Image src={BunnerImage} alt="バナー1" className="w-1/2 md:w-1/4" /> */}
             <Image
               src={Bunner2Image}
               alt="バナー2"
