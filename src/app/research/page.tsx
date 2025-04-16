@@ -2,7 +2,6 @@ import Image, { StaticImageData } from "next/image";
 import FDTRImage from "../_images/fdtr.jpeg";
 import FlexibleImage from "../_images/flexible2.jpg";
 import DeviceImage from "../_images/device.jpeg";
-import BunnerImage from "../_images/JKA_bunner.gif";
 import Bunner2Image from "../_images/JKA_banner2.png";
 import Bunner3Image from "../_images/JKA_banner3.png";
 import Link from "next/link";
@@ -70,11 +69,7 @@ export default function Research() {
             </div>
           </div>
           <div className="flex flex-row gap-4 md:mt-4 w-full">
-            <Image
-              src={Bunner2Image}
-              alt="バナー2"
-              className="w-1/2 md:w-1/4"
-            />
+            <Image src={Bunner2Image} alt="バナー2" className="w-1/2 md:w-1/4" />
             <Image
               src={Bunner3Image}
               alt="バナー3"
