@@ -69,13 +69,26 @@ export default function Research() {
             </div>
           </div>
           <div className="flex flex-row gap-4 md:mt-4 w-full">
-            <Image src={Bunner2Image} alt="バナー2" className="w-1/2 md:w-1/4" />
-            <Image
-              src={Bunner3Image}
-              alt="バナー3"
-              className="w-1/2 md:w-1/4"
-            />
+            <a href="https://www.jka-cycle.jp" className="w-1/2 md:w-1/4 block h=40">
+              <Image
+                src={Bunner2Image}
+                alt="バナー2"
+                className="w-full h-full object-cover"
+              />
+            </a>
+            <a href="https://keirin.jp" className="w-1/2 md:w-1/4 block h=40">
+              <Image
+                src={Bunner3Image}
+                alt="バナー3"
+                className="w-full h-full object-cover"
+              />
+            </a>
           </div>
+
+
+
+
+
           <div className="mt-2 md:mt-5 md:text-xl">
             <Link
               className="hover:text-blue-500 underline"
