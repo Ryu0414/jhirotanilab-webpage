@@ -8,10 +8,18 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "May 14, 2025",
+    description:
+      "We participated in the 62nd National Heat Transfer Symposium/HTSJ International Heat Transfer Symposium at Okinawa Convention Center.",
+    id: 17,
+    link: "https://pub.confit.atlas.jp/ja/event/htsj2025",
+    imgPath: "/_images/news/20250523_HSTJ.png",
+  },
+  {
     date: "March 26, 2025",
     description:
       "Jun Hirotani gave a pitch about creation of a global startup for solving thermal issues with high-performance thermal management products at KSAC DEMO DAY 2025.",
-    id: 17,
+    id: 16,
     link: "https://ksac.site/next-pioneer-demoday2025/en/index.html",
     imgPath: "/_images/news/20250326_KSAC_demo_2025.png",
   },
