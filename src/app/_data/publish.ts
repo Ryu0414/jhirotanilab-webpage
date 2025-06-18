@@ -10,6 +10,16 @@ export type PubType = {
 const PUB_LIST: PubType[] = [
   {
     title:
+      "MXene-Integrated Contact Lens: A Breakthrough in Wearable Eye Protection and Healthcare",
+    authors:
+      "Lunjie Hu, Saman Azhari, Hanzhe Zhang, Yuki Matsunaga, Jun Hirotani, Atsushige Ashimori, Kazuhiro Kimura, Takeo Miyake",
+    id: 44,
+    link: "https://doi.org/10.1002/smsc.202400628",
+    publication: "Small Science, 2400628 (2025)",
+    detail: "",
+  },
+  {
+    title:
       "Estimating depth-directional thermal conductivity profiles using neural network with dropout in frequency-domain thermoreflectance",
     authors:
       "Yasuaki Ikeda, Yuki Akura, Masaki Shimofuri, Amit Banerjee, Toshiyuki Tsuchiya, Jun Hirotani",
