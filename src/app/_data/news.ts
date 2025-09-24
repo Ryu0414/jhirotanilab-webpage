@@ -8,6 +8,38 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "September 23, 2025",
+    description:
+      "We participated in The 35th International Symposium on Transport Phenomena at The Westin Josun Busan.",
+    id: 21,
+    link: "https://istp35.kr/",
+    imgPath: "/_images/news/20250923_ISTP35.png",
+  },
+  {
+    date: "August 18, 2025",
+    description:
+      "Our research paper was published in Applied Physics Letters. The title of research was 'Utilizing machine learning in the three-omega method to predict thermophysical properties with low variation ' (Y. Ikeda et al.).",
+    id: 20,
+    link: "https://doi.org/10.1063/5.0274238",
+    imgPath: "/_images/news/20250818_ikeda_paper_cover.png",
+  },
+  {
+    date: "August 8, 2025",
+    description:
+      "Our research paper was published in Review of Scientific Instruments. The title of research was 'Enhancing the precision of thermal conductivity measurement via transducer patterning in frequency-domain thermoreflectance' (Y. Akura et al.).",
+    id: 19,
+    link: "https://doi.org/10.1063/5.0272055",
+    imgPath: "/_images/news/20250808_akura_paper_cover.jpg",
+  },
+  {
+    date: "July 23, 2025",
+    description:
+      "Jun Hirotani gave an invited talk on thermal technologies at ICHIKEN lounge in the TECHNO-FRONTIER 2025.",
+    id: 18,
+    link: "",
+    imgPath: "/_images/news/20250723_ichiken.jpg",
+  },
+  {
     date: "May 14, 2025",
     description:
       "We participated in the 62nd National Heat Transfer Symposium/HTSJ International Heat Transfer Symposium at Okinawa Convention Center.",

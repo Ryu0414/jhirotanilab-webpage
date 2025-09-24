@@ -10,6 +10,26 @@ export type PubType = {
 const PUB_LIST: PubType[] = [
   {
     title:
+      "Utilizing machine learning in the three-omega method to predict thermophysical properties with low variation",
+    authors:
+      "Yasuaki Ikeda, Yuki Akura, Ryuto Yamasaki, Yuki Matsunaga, Lijun Liu, Masaki Shimofuri, Amit Banerjee, Toshiyuki Tsuchiya, Jun Hirotani",
+    id: 46,
+    link: "https://doi.org/10.1063/5.0274238",
+    publication: "Applied Physics Letters, 127(7) 072202 (2025)",
+    detail: "",
+  },
+  {
+    title:
+      "Enhancing the precision of thermal conductivity measurement via transducer patterning in frequency-domain thermoreflectance",
+    authors:
+      "Yuki Akura, Yuki Matsunaga, Lijun Liu, Yasuaki Ikeda, Masaki Shimofuri, Amit Banerjee, Toshiyuki Tsuchiya, Jun Hirotani",
+    id: 45,
+    link: "https://doi.org/10.1063/5.0272055",
+    publication: "Review of Scientific Instruments, 96(8) 084906 (2025)",
+    detail: "",
+  },
+  {
+    title:
       "MXene-Integrated Contact Lens: A Breakthrough in Wearable Eye Protection and Healthcare",
     authors:
       "Lunjie Hu, Saman Azhari, Hanzhe Zhang, Yuki Matsunaga, Jun Hirotani, Atsushige Ashimori, Kazuhiro Kimura, Takeo Miyake",
