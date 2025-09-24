@@ -36,7 +36,7 @@ const NEWS_LIST: NewsType[] = [
     description:
       "Jun Hirotani gave an invited talk on thermal technologies at ICHIKEN lounge in the TECHNO-FRONTIER 2025.",
     id: 18,
-    link: "",
+    link: "https://www.youtube.com/watch?v=wlg_Dpe2JZo",
     imgPath: "/_images/news/20250723_ichiken.jpg",
   },
   {
