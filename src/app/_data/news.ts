@@ -8,6 +8,14 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "September 29, 2025",
+    description:
+      "We participated in The 16th International Conference on Computational Methods at Grand Parkray Hangzhou.",
+    id: 22,
+    link: "https://www.2025-iccm.com/",
+    imgPath: "/_images/news/20250929_ICCM2025.png",
+  },
+  {
     date: "September 23, 2025",
     description:
       "We participated in The 35th International Symposium on Transport Phenomena at The Westin Josun Busan.",
