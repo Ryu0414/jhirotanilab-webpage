@@ -32,7 +32,7 @@ export default function Research() {
             <ResearchLi
               image={DeviceImage}
               title="Electronic and thermal devices for tissue engineering"
-              details="As the field of tissue engineering advances, new tools for monitoring and evaluating of engineered tissues along with new biomaterials to direct tissue growth are needed. We use carbon nanotubes as an important tissue engineering material for improved tracking of cells, sensing of microenvironments, delivering of transfection agents, and scaffolding for incorporating with the host’s body. In addition, monitoring and alteringintra and intercellular processes would be useful for design of better engineered tissues. Since 2020, we have just started to make electronic and thermal device for creating and monitoring engineered tissue."
+              details="As the field of tissue engineering advances, new tools for monitoring and evaluating engineered tissues along with new biomaterials to direct tissue growth are needed. We use nanomaterials such as carbon nanotubes and MXenes as an important tissue engineering material for improved tracking of cells, sensing of microenvironments, delivering of transfection agents, and scaffolding for incorporating with the host’s body. In addition, monitoring and alteringintra and intercellular processes would be useful for design of better engineered tissues. Since 2020, we have just started to make electronic and thermal devices for creating and monitoring engineered tissue."
             />
           </div>
           {/* <div>

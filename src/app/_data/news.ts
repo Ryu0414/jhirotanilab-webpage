@@ -8,6 +8,30 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "Novenvor 10, 2025",
+    description:
+      "We participated in Future Technologies from UTSUNOMIYA at LIGHT CUBE UTSUNOMIYA.",
+    id: 25,
+    link: "https://www.jsme.or.jp/conference/mnm2025/",
+    imgPath: "/_images/news/20251110_FT2025.jpg",
+  },
+  {
+    date: "October 19, 2025",
+    description:
+      "Jun Hirotani gave an invited talk entitled \"Estimating depth-directional thermal conductivity profiles in frequency domain thermoreflectance\" in ATPC 2025.",
+    id: 24,
+    link: "http://atpc2025.org/",
+    imgPath: "/_images/news/20251019_ATPC2025.jpg",
+  },
+  {
+    date: "October 16, 2025",
+    description:
+      "Educational Programming tool \"ドロモビ\" is released by Kyoto University and Suzuki Motor Corporation.",
+    id: 23,
+    link: "https://doromobi.jp/",
+    imgPath: "/_images/news/20251016_doromobi.jpg",
+  },
+  {
     date: "September 29, 2025",
     description:
       "We participated in The 16th International Conference on Computational Methods at Grand Parkray Hangzhou.",

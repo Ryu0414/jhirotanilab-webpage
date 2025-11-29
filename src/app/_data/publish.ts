@@ -10,6 +10,16 @@ export type PubType = {
 const PUB_LIST: PubType[] = [
   {
     title:
+      "Enhanced Skeletal Muscle Differentiation by Multilayered MXene Sheets Filtered and Transferred onto a Thin Elastomeric Film",
+    authors:
+      "Hiroaki Mita, Yuki Matsunaga, Jun Hirotani, Toshinori Fujie",
+    id: 47,
+    link: "https://pubs.acs.org/doi/10.1021/acs.nanolett.5c04386",
+    publication: "Nano Letters, 1530-6992 (2025)",
+    detail: "",
+  },
+  {
+    title:
       "Utilizing machine learning in the three-omega method to predict thermophysical properties with low variation",
     authors:
       "Yasuaki Ikeda, Yuki Akura, Ryuto Yamasaki, Yuki Matsunaga, Lijun Liu, Masaki Shimofuri, Amit Banerjee, Toshiyuki Tsuchiya, Jun Hirotani",
