@@ -8,7 +8,7 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
-    date: "Novenvor 10, 2025",
+    date: "November 10, 2025",
     description:
       "We participated in Future Technologies from UTSUNOMIYA at LIGHT CUBE UTSUNOMIYA.",
     id: 25,
