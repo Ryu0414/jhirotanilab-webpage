@@ -10,7 +10,7 @@ const NEWS_LIST: NewsType[] = [
   {
     date: "December 17, 2025",
     description:
-      "We won the Excellence Award at Academia Award in Semicon Japan 2025!",
+      "We won the Grand Prize at Academia Award in Semicon Japan 2025!",
     id: 27,
     link: "https://www.semiconjapan.org/jp/workforce/academia-award",
     imgPath: "/_images/news/20251217_Semicon2025_wonPrize.jpg",
