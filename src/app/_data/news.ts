@@ -8,6 +8,22 @@ export type NewsType = {
 
 const NEWS_LIST: NewsType[] = [
   {
+    date: "December 17, 2025",
+    description:
+      "We won the Excellence Award at Academia Award in Semicon Japan 2025!",
+    id: 27,
+    link: "https://www.semiconjapan.org/jp/workforce/academia-award",
+    imgPath: "/_images/news/20251217_Semicon2025_wonPrize.jpg",
+  },
+  {
+    date: "December 16, 2025",
+    description:
+      "We participated in SEMICON Japan at Tokyo International Exhibition Center from December 17 to 19.",
+    id: 26,
+    link: "",
+    imgPath: "/_images/news/20251216_Semicon2025_join.jpg",
+  },
+  {
     date: "November 10, 2025",
     description:
       "We participated in Future Technologies from UTSUNOMIYA at LIGHT CUBE UTSUNOMIYA.",
