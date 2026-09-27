@@ -10,6 +10,36 @@ export type PubType = {
 const PUB_LIST: PubType[] = [
   {
     title:
+      "Physical reservoir computing using nonlinear heat conduction phenomena in alumina ceramic plates",
+    authors:
+      "Seita Umemoto, Yuki Matsunaga, Yasuaki Ikeda, Yuki Akura, Lijun Liu, Jun Hirotani",
+    id: 50,
+    link: "https://doi.org/10.1063/5.0348615",
+    publication: "Journal of Applied Physics, 140(10) 105104 (2026)",
+    detail: "",
+  },
+  {
+    title:
+      "Physical reservoir computing with nonlinear temperature characteristics of thermal conductivity",
+    authors:
+      "Seita Umemoto, Yudai Takeda, Yuki Matsunaga, Yasuaki Ikeda, Yuki Akura, Lijun Liu, Masaki Shimofuri, Toshiyuki Tsuchiya, Jun Hirotani",
+    id: 49,
+    link: "https://doi.org/10.1063/5.0332683",
+    publication: "Applied Physics Letters,  129(10) 104101 (2026)",
+    detail: "",
+  },
+  {
+    title:
+      "In-plane thermal conductivity measurement of nanoscale thin films via frequency-domain thermoreflectance with multilayer stacking",
+    authors:
+      "Yuki Akura, Yasuaki Ikeda, Lijun Liu, Jun Hirotani",
+    id: 48,
+    link: "https://doi.org/10.1063/5.0320864",
+    publication: "Journal of Applied Physics, 139(18) 185104 (2026)",
+    detail: "",
+  },
+  {
+    title:
       "Enhanced Skeletal Muscle Differentiation by Multilayered MXene Sheets Filtered and Transferred onto a Thin Elastomeric Film",
     authors:
       "Hiroaki Mita, Yuki Matsunaga, Jun Hirotani, Toshinori Fujie",
