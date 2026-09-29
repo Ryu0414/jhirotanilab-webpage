@@ -103,7 +103,17 @@ export default function Home() {
               <li>JSPS Grant-in-Aid for Scientific Research</li>
               <li>JST PRESTO</li>
               <li>NEDO</li>
-              <li>JKA</li>
+              <li>
+                JKA{" "}
+                <a
+                  className="text-sm md:text-base text-blue-500 hover:text-blue-700 underline"
+                  href="/pdf/JKA_Akura_2026.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  detail
+                </a>
+              </li>
             </ul>
             <div className="md:mt-2">
               <span className="md:text-xl">etc.</span>
